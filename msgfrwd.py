@@ -20,11 +20,11 @@ msgfrwd = TelegramClient('bot', apiid, apihash).start(bot_token=bottoken)
 @msgfrwd.on(events.NewMessage(pattern="/start"))
 async def _(event):
     ok = await msgfrwd(GetFullUserRequest(event.sender_id))
-    await event.reply(f"Hi {ok.user.first_name}, I am a message forwarder bot.\nRead /help for more!\n\n(c) @its_xditya")
+    await event.reply(f"Hola {ok.user.first_name} !, I am a message forwarder bot.\nRead /help for more!\n\n(c) @crazy_Axd")
 
 @msgfrwd.on(events.NewMessage(pattern="/help"))
 async def _(event):
-    await event.reply("I forward messages from one group to another.\nAdd me to both the groups first...\nUse `/frwd <to group id/username> <message/reply to message>` to forward the message to that group.\n\n(c) @its_xditya")
+    await event.reply("<b>I forward messages from one group to another.</b>\n➥Add me to both the groups first...\n➥Use `/frwd <to group id/username> <message/reply to message>` to forward the message to that group.\n\n(c) @crazy_Axd")
 
 @msgfrwd.on(events.NewMessage(pattern="/frwd"))
 async def frwder(event):
