@@ -11,7 +11,7 @@ This bot sends the message to the target group from a group. (yes, that's it).
 <details>
 <summary>Heroku/Kintohub/Zeet</summary>
 <br>
-Add them to the environment vars.
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/samurai-maker/MessageForwardbot)
 </details>
 <details>
 <summary>Local Deoploys</summary>
