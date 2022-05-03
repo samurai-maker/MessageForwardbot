@@ -1,1 +1,1 @@
-worker: python3 HSbot.py
+worker: python3 msgfrwd.py
