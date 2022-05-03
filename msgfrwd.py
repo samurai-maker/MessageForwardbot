@@ -24,7 +24,7 @@ async def _(event):
 
 @msgfrwd.on(events.NewMessage(pattern="/help"))
 async def _(event):
-    await event.reply("<b>I forward messages from one group to another.</b>\n➥Add me to both the groups first...\n➥Use `/frwd <to group id/username> <message/reply to message>` to forward the message to that group.\n\n(c) @crazy_Axd")
+    await event.reply("I forward messages from one group to another.\n\n➥Add me to both the groups first...\n➥Use `/frwd <to group id/username> <message/reply to message>` to forward the message to that group.\n\n(c) @crazy_Axd")
 
 @msgfrwd.on(events.NewMessage(pattern="/frwd"))
 async def frwder(event):
