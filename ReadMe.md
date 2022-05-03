@@ -8,16 +8,8 @@ This bot sends the message to the target group from a group. (yes, that's it).
 > `APP_ID` and `API_HASH` - Get it from my.telegram.org   
 > `BOT_TOKEN` - Get it from [@BotFather](https://t.me/BotFather)   
 * Chose a platform to deploy on:
-<details>
-<summary>Heroku/Kintohub/Zeet</summary>
-<br>
+
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/samurai-maker/MessageForwardbot)
-</details>
-<details>
-<summary>Local Deoploys</summary>
-<br>
-Make a ".env" file in the root of the repo, like ".env.sample" and fill in the values.   
-</details>
 
 # Usage
 Add me to both the groups first...   
